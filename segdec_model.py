@@ -306,7 +306,7 @@ class SegDecModel(object):
     def restore(self, session, model_checkpoint_path, variables_to_restore = None, load_from_seg_only_net=False):
 
         if variables_to_restore is None:
-            variables_to_restore = tf.trainable_variables() + tf.moving_average_variables()
+            variables_to_restore = tf.trainable_variables()# + tf.moving_average_variables() # tf.moving_average_variables is required only in TF r1.1
 
         # this is only when loading from pre-trained network of segmetnation that did not have decision net layers
         # present at the same time
