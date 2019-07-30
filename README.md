@@ -31,9 +31,9 @@ Please cite JIM 2019 journal paper:
 
 The full dataset Kolektor Surface Defect Dataset (KolektorSDD) is available [here](https://www.vicos.si/Downloads/KolektorSDD).
 
-We split the dataset into three folds to perform 3-fold cross validation. The splits are available at [ftp://box.vicos.si/skokec/gostop/KolektorSDD-training-splits.zip](ftp://box.vicos.si/skokec/gostop/KolektorSDD-training-splits.zip).
+We split the dataset into three folds to perform 3-fold cross validation. The splits are available at [http://box.vicos.si/skokec/gostop/KolektorSDD-training-splits.zip](http://box.vicos.si/skokec/gostop/KolektorSDD-training-splits.zip).
 
-Fully prepared TensorFlow dataset split into 3 folds is available at [ftp://box.vicos.si/skokec/gostop/KolektorSDD-dilate=5-tensorflow.zip](ftp://box.vicos.si/skokec/gostop/KolektorSDD-dilate=5-tensorflow.zip).
+Fully prepared TensorFlow dataset split into 3 folds is available at [http://box.vicos.si/skokec/gostop/KolektorSDD-dilate=5-tensorflow.zip](http://box.vicos.si/skokec/gostop/KolektorSDD-dilate=5-tensorflow.zip).
 
 
 # Usage of training/evaluation code
