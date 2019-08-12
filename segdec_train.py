@@ -759,9 +759,10 @@ if __name__ == '__main__':
                 net_model = SegDecModel(decision_net=SegDecModel.DECISION_NET_FULL,
                                         use_corss_entropy_seg_net=use_corss_entropy_seg_net,
                                         positive_weight = pos_weights)
+            current_pretrained_model = pretrained_model
 
-            if pretrained_model is None and pretrained_main_folder is not None:
-                pretrained_model = os.path.join(pretrained_main_folder,fold_name)
+            if current_pretrained_model is None and pretrained_main_folder is not None:
+                current_pretrained_model = os.path.join(pretrained_main_folder,fold_name)
 
             train = SegDecTrain(net_model,
                                 storage_dir=main_storage_dir,
@@ -772,7 +773,7 @@ if __name__ == '__main__':
                                 max_steps=max_steps,
                                 max_epochs=1200,
                                 visible_device_list=args.gpu,
-                                pretrained_model_checkpoint_path=pretrained_model,
+                                pretrained_model_checkpoint_path=current_pretrained_model,
                                 train_segmentation_net=with_seg_net,
                                 train_decision_net=with_decision_net,
                                 use_random_rotation=input_rotation,
