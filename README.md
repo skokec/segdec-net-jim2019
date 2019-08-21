@@ -53,7 +53,7 @@ Using the TensorFlow ready [KolektorSDD](https://www.vicos.si/Downloads/Kolektor
 # 1. Download and extract `KolektorSDD-dilate=5-tensorflow.zip`
 mkdir db
 cd db
-wget ftp://box.vicos.si/skokec/gostop/KolektorSDD-dilate=5-tensorflow.zip
+wget http://box.vicos.si/skokec/gostop/KolektorSDD-dilate=5-tensorflow.zip
 unzip -x KolektorSDD-dilate=5-tensorflow.zip
 cd ..
 
