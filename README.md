@@ -2,6 +2,8 @@
 
 Official TensorFlow implementation for [Segmentation-based deep-learning approach for surface-defect detection](https://prints.vicos.si/publications/370) that uses segmentation and decision networks for the detection of surface defects. This work was done in collaboration with [Kolektor Group d.o.o.](http://www.kolektorvision.com/en/).
 
+Code and the dataset are available for research and non-commercial use only.
+
 # Citation:
 
 Please cite JIM 2019 journal paper:
