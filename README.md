@@ -41,9 +41,9 @@ Please cite JIM 2019 journal paper:
 
 The full dataset Kolektor Surface Defect Dataset (KolektorSDD) is available [here](https://www.vicos.si/Downloads/KolektorSDD).
 
-We split the dataset into three folds to perform 3-fold cross validation. The splits are available at [http://data.vicos.si/skokec/gostop/KolektorSDD-training-splits.zip](http://data.vicos.si/skokec/gostop/KolektorSDD-training-splits.zip).
+We split the dataset into three folds to perform 3-fold cross validation. The splits are available at [https://data.vicos.si/datasets/KSDD/KolektorSDD-training-splits.zip](https://data.vicos.si/datasets/KSDD/KolektorSDD-training-splits.zip).
 
-Fully prepared TensorFlow dataset split into 3 folds is available at [http://data.vicos.si/skokec/gostop/KolektorSDD-dilate=5-tensorflow.zip](http://data.vicos.si/skokec/gostop/KolektorSDD-dilate=5-tensorflow.zip).
+Fully prepared TensorFlow dataset split into 3 folds is available at [https://data.vicos.si/datasets/KSDD/KolektorSDD-dilate=5-tensorflow.zip](https://data.vicos.si/datasets/KSDD/KolektorSDD-dilate=5-tensorflow.zip).
 
 
 # Usage of training/evaluation code
@@ -63,7 +63,7 @@ Using the TensorFlow ready [KolektorSDD](https://www.vicos.si/Downloads/Kolektor
 # 1. Download and extract `KolektorSDD-dilate=5-tensorflow.zip`
 mkdir db
 cd db
-wget http://data.vicos.si/skokec/gostop/KolektorSDD-dilate=5-tensorflow.zip
+wget https://data.vicos.si/datasets/KSDD/KolektorSDD-dilate=5-tensorflow.zip
 unzip -x KolektorSDD-dilate=5-tensorflow.zip
 cd ..
 
